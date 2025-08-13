@@ -14,13 +14,13 @@
 - Normalized pixel values to [0, 1]
 - Applied data augmentation (rotation, flipping, zoom)
 
-** Model Details**
-**🔹 Custom CNN**
+**Model Details**
+- **Custom CNN**
 - **Layers:** Conv2D → MaxPooling → Conv2D → MaxPooling → Flatten → Dense → Output
 - **Optimizer:** Adam (lr=0.001)
 - **Epochs:** 10
 
-**🔹 MobileNetV2**
+- **MobileNetV2**
 - Pre-trained on ImageNet
 - Fine-tuned final layers for binary classification
 - **Optimizer:** Adam (lr=0.0001)
