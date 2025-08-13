@@ -1,10 +1,10 @@
 # Image-Recognition-Project
 🐾 Cats vs. Dogs Classifier — Built with TensorFlow/Keras using both a custom CNN and MobileNetV2, achieving high accuracy through data augmentation, model tuning, and performance evaluation.
 # Project Overview
--The goal was to train and compare two models:
--Custom CNN — Built from scratch with Conv2D, Pooling, and Dense layers.
--MobileNetV2 — A pre-trained model fine-tuned for our dataset.
--We evaluated performance using metrics like accuracy, precision, recall, F1-score, and confusion matrix, along with visualizations for training progress.
+- The goal was to train and compare two models:
+- Custom CNN — Built from scratch with Conv2D, Pooling, and Dense layers.
+- MobileNetV2 — A pre-trained model fine-tuned for our dataset.
+- We evaluated performance using metrics like accuracy, precision, recall, F1-score, and confusion matrix, along with visualizations for training progress.
 
 # Dataset
 Source: Kaggle — Cats and Dogs Dataset
